@@ -1,4 +1,4 @@
-# 🤖 Schreina-B-
+# 🤖 Schreina (B) Discord Bot
 ***
 ## 👾 Discord Bot: Schreina (B)
 
