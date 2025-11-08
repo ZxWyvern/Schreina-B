@@ -6,6 +6,8 @@ Schreina (B) is a Discord bot built purely **for fun** and as a means for me to 
 
 *(Yes, the "B" in the bot's name stands for **Bot**.)*
 
+**LANGUAGE:** This bot primarily uses **Bahasa Indonesia** (Indonesian Language) for its responses and commands.
+
 **IMPORTANT:** This is **not** a manager or moderation bot; it is solely for light interaction and entertainment!
 
 ---
