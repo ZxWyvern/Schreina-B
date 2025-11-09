@@ -16,7 +16,7 @@ Schreina (B) is a Discord bot built purely **for fun** and as a means for me to 
 
 You can invite Schreina (B) to your Discord server via the link below:
 
-**[INVITE SCHREINA (B)](https://discord.com/oauth2/authorize?client_id=1436601995283922974)**
+**[INVITE SCHREINA (B)]([https://discord.com/oauth2/authorize?client_id=1436601995283922974](https://discord.com/oauth2/authorize?client_id=1436601995283922974&permissions=316938558491968&integration_type=0&scope=bot))**
 
 ---
 
@@ -61,16 +61,12 @@ Here is the complete list of commands available for the Schreina (B) bot:
 | `sch!queue` | Views the list of songs in the queue. |
 | `sch!clear` | Clears all songs from the queue. |
 | `sch!np` | Displays the details of the currently playing song (*Now Playing*). |
+| `sch!loop` | <song/queue/off> - Toggle repeat mode. |
+| `sch!pause` | Pause playback. |
+| `sch!resume` | Resume playback. |
+| `sch!clear` | Clear the entire queue. |
+| `sch!stop` | Stop playback and disconnect the bot. |
 
----
-
-## 🤖 Auto-Response
-
-The bot will automatically respond when specific words or phrases (in Indonesian) are mentioned in a channel:
-
-* **`semangat`** → Sends an encouraging message.
-* **`endrico`** → Sends a custom message.
-* **`halo schreina`** → Greets you back.
 
 ***
 **Thank you for trying Schreina (B)!**
