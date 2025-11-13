@@ -13,6 +13,10 @@ This is an **Advanced Music Bot** built to provide a rich music experience with 
 **IMPORTANT:** The bot is designed for high-quality audio playback and comprehensive music management.
 
 ---
+## 🔗 Bot Invitation You can invite this bot to your Discord server via the link below:
+[INVITE NOW](http://discord.com/oauth2/authorize?client_id=1436601995283922974&permissions=316938558491968&integration_type=0&scope=bot)
+
+---
 
 ##  Command Type
 
