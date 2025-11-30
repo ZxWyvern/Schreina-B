@@ -1,114 +1,86 @@
-##  Discord Bot: Advanced Music Bot
-Schreina (B) is a Discord bot built purely for fun and as a means for me to explore and develop skills in Discord development.
+# EliteGuard Bot: Your Modern Moderation Solution
 
-
-
-(Yes, the "B" in the bot's name stands for Bot.)
-
-
-
-LANGUAGE: This bot primarily uses Bahasa Indonesia (Indonesian Language) for its responses and interactions.
-This is an **Advanced Music Bot** built to provide a rich music experience with features like **audio filters, custom playlists, and full queue control.**
-
-**IMPORTANT:** The bot is designed for high-quality audio playback and comprehensive music management.
-
----
-## 🔗 Bot Invitation You can invite this bot to your Discord server via the link below:
-[INVITE NOW](http://discord.com/oauth2/authorize?client_id=1436601995283922974&permissions=316938558491968&integration_type=0&scope=bot)
+EliteGuard Bot is engineered to elevate your Discord server moderation. By leveraging modern **Slash Commands**, the bot offers over 20 commands for efficient server management, member security, and data analysis.
 
 ---
 
-##  Command Type
+##  Key Features
 
-This bot primarily uses **Slash Commands** for all major functions.
+EliteGuard Bot provides a robust and organized suite of features to keep your community safe and orderly.
 
-All commands must be prefixed with: **`/`**
+###  Slash Commands System
 
+The bot operates entirely using Discord's modern and intuitive **slash commands (/)**, ensuring a smooth and structured user experience.
 
 ---
 
-##  Commands List
+##  Moderation and Security Modules
 
-Here is the complete list of commands available for the bot:
+###  Warning System
 
-###  Music Commands
+Manage member discipline with a comprehensive warning system:
 
-| Command | Description |
-| :--- | :--- |
-| `/play <query>` | Plays music from YouTube/SoundCloud/Spotify or adds it to the queue. |
-| `/skip` | Skips the currently playing track. |
-| `/pause` | Pauses playback. |
-| `/resume` | Resumes playback. |
-| `/stop` | Stops playback and disconnects the bot. |
-| `/leave` | Forces the bot to leave the voice channel. |
-| `/join` | Invites the bot to your current voice channel. |
-| `/queue [page]` | Views the list of songs in the queue. |
-| `/nowplaying` | Displays details of the currently playing song. |
-| `/clearqueue` | Clears all songs from the queue. |
-| `/shuffle` | Shuffles the order of songs in the queue. |
-| `/remove <index>` | Removes a song from the queue by its index number. |
-| `/skipto <index>` | Skips the queue up to the song at the specified index. |
-| `/previous` | Plays the previously played track. |
-| `/loop [mode]` | Toggles repeat mode (`song`/`queue`/`off`). |
-| `/volume [level]` | Sets the playback volume (0-200). |
-| `/seek <time_str>` | Seeks to a specific timestamp (e.g., `1:30` or `90s`). |
-| `/autoplay` | Toggles the *autoplay* feature. |
-| `/lyrics [song]` | Gets the lyrics for the current or specified song. |
-| `/musicpanel` | Creates an interactive music control panel with buttons. |
+* **/warn** : Issue a warning to a member with a specific reason.
+* **/warnings** : View the history of all warnings an member has.
+* **/clearwarns** : Delete all warning records for a specific member.
+* **/warnlist** : List all members who have been warned at least once.
 
-###  Filter Commands
+###  Notes System
 
-| Command | Description |
-| :--- | :--- |
-| `/bassboost` | Toggles the bassboost filter. |
-| `/8d` | Toggles the 8D audio filter. |
-| `/nightcore` | Toggles the nightcore filter. |
-| `/bass` | Toggles the general bass filter. |
-| `/chipmunk` | Toggles the chipmunk effect. |
-| `/karaoke` | Toggles the karaoke filter. |
-| `/pop` | Toggles the pop filter. |
-| `/radio` | Toggles the radio filter. |
-| `/slowmo` | Toggles the slow motion filter. |
-| `/soft` | Toggles the soft filter. |
-| `/speed` | Toggles the speed filter. |
-| `/treblebass` | Toggles the treblebass filter. |
-| `/clearfilter` | Clears all active audio filters. |
+Add private, moderator-only notes about members for moderation purposes:
 
-###  Playlist Commands
+* **/note** : Add a new private note for a member.
+* **/notes** : View all notes that have been added for that member.
 
-| Command | Description |
-| :--- | :--- |
-| `/pl-create <name>` | Creates a new server playlist. |
-| `/pl-delete <name>` | Deletes a playlist (requires ownership/admin). |
-| `/pl-list` | Lists all server playlists. |
-| `/pl-info <name>` | Displays information and songs in a playlist. |
-| `/pl-play <name>` | Adds all songs from a playlist to the queue. |
-| `/pl-shuffle <name>` | Shuffles and plays all songs from a playlist. |
-| `/pl-save <name>` | Saves the currently playing song to a playlist. |
-| `/pl-saveq <name>` | Saves the entire current queue to a playlist. |
-| `/pl-remove <name> <index>` | Removes a song from a playlist by index. |
-| `/pl-dupes <name>` | Removes duplicate songs from a playlist. |
+###  Watchlist
 
-###  Settings Commands (Admin Only)
+Keep track of members who require extra attention or monitoring:
 
-| Command | Description |
-| :--- | :--- |
-| `/setprefix <prefix>` | Sets a custom legacy prefix (max 5 chars). |
-| `/adddj <role>` | Sets a role that can use DJ commands. |
-| `/removedj` | Removes the set DJ role. |
-| `/toggledj` | Toggles DJ mode (restricts music commands to DJs/Admins). |
-| `/247` | Toggles 24/7 mode (prevents the bot from auto-disconnecting). |
+* **/watch** : Add a member to the **Watchlist**.
+* **/unwatch** : Remove a member from the Watchlist.
+* **/watchlist** : View the complete list of all watched members.
 
-###  Info Commands
+###  Moderation Actions
 
-| Command | Description |
-| :--- | :--- |
-| `/help [category]` | Displays this help menu (`music`, `filters`, `playlist`, `settings`, `info`). |
-| `/ping` | Checks the bot's latency (ping). |
-| `/uptime` | Displays the bot's current uptime. |
-| `/about` | Displays general information about the bot. |
-| `/invite` | Get the bot's invite link. |
-| `/support` | Displays the support server information. |
+Perform standard moderation actions quickly and easily:
 
-***
-**Thank you for using the Advanced Music Bot!**
+* **/kick** : Remove a member from the server.
+* **/ban** : Permanently block a member from the server.
+* **/unban** : Unblock a user based on their user ID.
+* **/timeout** : Issue a **timeout** sanction to a member for a specified duration.
+
+---
+
+##  Server Analysis and Information
+
+###  Member Information
+
+Get deep details on members and community statistics:
+
+* **/userinfo** : Display complete details about a member (roles, status, account age, etc.).
+* **/members** : Server member statistics (total, humans, bots, online status, etc.).
+* **/search** : Search for members by username or part of a name.
+* **/noroles** : List all members who currently do not have any roles.
+
+###  Server Analysis
+
+Gain insights into your server's health and structure:
+
+* **/stats** : Display comprehensive server statistics (member count, channels, roles, etc.).
+* **/inactives** : Find and list members who have been inactive for the past few days.
+* **/bots** : List all bot accounts present in the server.
+
+###  Data Management
+
+Secure and manage essential server data:
+
+* **/backup** : Create a backup of essential member data in **JSON** format.
+* **/export** : Export the server's member list to a **CSV** file.
+
+---
+
+##  Interactive Help
+
+Access the complete bot guide directly from Discord:
+
+* **/help** : Display an interactive and detailed help menu with page navigation using buttons and dropdown menus.
