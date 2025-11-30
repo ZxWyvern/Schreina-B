@@ -14,7 +14,7 @@ EliteGuard Bot provides a robust and organized suite of features to keep your co
 
 ###  Slash Commands System
 
-The bot operates entirely using Discord's modern and intuitive **slash commands (/)**, ensuring a smooth and structured user experience.
+The bot operates entirely using Discord's modern and intuitive **Slash commands (/)**, ensuring a smooth and structured user experience.
 
 ---
 
