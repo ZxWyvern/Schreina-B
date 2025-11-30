@@ -1,10 +1,10 @@
-#  Schreina (B)
+#  Schreina (B) Bot Discord
 
 Schreina (B) is engineered to elevate your Discord server moderation. By leveraging modern **Slash Commands**, the bot offers over 20 commands for efficient server management, member security, and data analysis.
 
 ##  Invite the Bot
 
-**[Add EliteGuard Bot to your server now!](https://discord.com/oauth2/authorize?client_id=1436601995283922974&permissions=8&integration_type=0&scope=bot)**
+**[Add Schreina (B) Bot to your server now!](https://discord.com/oauth2/authorize?client_id=1436601995283922974&permissions=8&integration_type=0&scope=bot)**
 
 ---
 
